@@ -11,16 +11,10 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2": "~2.0.13"
     },
     "autoload": {
         "psr-4": {
             "Template\\": "assets/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
         }
     }
 }
