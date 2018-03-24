@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Template\\": "assets/"
+            "wm00689\\template\\": "assets/"
         }
     }
 }
