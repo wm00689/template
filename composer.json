@@ -1,7 +1,7 @@
 {
     "name": "wm00689/template",
     "description": "yii2-admin-template",
-    "type": "library",
+    "type": "yii2-extension",
     "license": "MIT",
     "authors": [
         {
