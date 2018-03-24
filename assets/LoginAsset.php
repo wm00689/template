@@ -25,6 +25,6 @@ class LoginAsset extends AssetBundle
     ];
 
     public $depends = [
-        'c\themes\metronic\assets\Layout3Asset'
+        'wm00689\template\Layout3Asset'
     ];
 }
