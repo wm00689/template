@@ -1,0 +1,21 @@
+{
+    "name": "wm00689/template",
+    "description": "yii2-admin-template",
+    "type": "library",
+    "license": "1",
+    "authors": [
+        {
+            "name": "wangmin",
+            "email": "17763768@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Template\\": "assets/"
+        }
+    }
+}
