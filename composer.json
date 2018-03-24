@@ -2,7 +2,7 @@
     "name": "wm00689/template",
     "description": "yii2-admin-template",
     "type": "library",
-    "license": "1",
+    "license": "MIT",
     "authors": [
         {
             "name": "wangmin",
