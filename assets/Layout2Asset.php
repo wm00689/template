@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class Layout2Asset extends AssetBundle
 {
-    public $baseUrl = '@static';
+    public $baseUrl = '@static/metronic/assets';
 
     public $css = [
         'global/css/components-md.min.css',

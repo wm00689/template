@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class Dashboard2Asset extends AssetBundle
 {
-    public $baseUrl = '@static';
+    public $baseUrl = '@static/metronic/assets';
 
     public $css = [
         'global/plugins/bootstrap-daterangepicker/daterangepicker.min.css',

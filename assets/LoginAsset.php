@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class LoginAsset extends AssetBundle
 {
-    public $baseUrl = '@static';
+    public $baseUrl = '@static/metronic/assets';
 
     public $css = [
         'plugins/validform/css/style.css',

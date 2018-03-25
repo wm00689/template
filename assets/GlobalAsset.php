@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class GlobalAsset extends AssetBundle
 {
-    public $baseUrl = '@static';
+    public $baseUrl = '@static/metronic/assets';
 
     public $css = [
         'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all',
