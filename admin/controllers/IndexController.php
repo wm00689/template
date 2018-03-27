@@ -6,13 +6,13 @@
  * Time: 13:18
  */
 
-namespace wm00689\admin\user\controllers;
+namespace wm00689\admin\controllers;
 
 use backend\classes\common;
 
-use wm00689\admin\user\models\AdminUser;
-use wm00689\admin\user\models\PermissonForm;
-use wm00689\admin\user\models\RoleForm;
+use wm00689\admin\models\AdminUser;
+use wm00689\admin\models\PermissonForm;
+use wm00689\admin\models\RoleForm;
 use common\models\User;
 use Yii;
 

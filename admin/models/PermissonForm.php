@@ -6,7 +6,7 @@
  * Time: 18:17
  */
 
-namespace wm00689\admin\user\models;
+namespace wm00689\admin\models;
 
 
 use backend\classes\common;

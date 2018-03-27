@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace wm00689\admin\user\models;
+namespace wm00689\admin\models;
 
 use yii\base\Model;
 use yii\behaviors\TimestampBehavior;

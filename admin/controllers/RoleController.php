@@ -6,14 +6,14 @@
  * Time: 17:58
  */
 
-namespace wm00689\admin\user\controllers;
+namespace wm00689\admin\controllers;
 
 
 use backend\classes\common;
 
 
-use wm00689\admin\user\models\PermissonForm;
-use wm00689\admin\user\models\RoleForm;
+use wm00689\admin\models\PermissonForm;
+use wm00689\admin\models\RoleForm;
 use Yii;
 use yii\helpers\VarDumper;
 use yii\web\Controller;
