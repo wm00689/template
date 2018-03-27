@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace backend\modules\admin\modules\user\models;
+namespace wm00689\admin\user\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;
