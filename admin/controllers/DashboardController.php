@@ -20,7 +20,7 @@ class DashboardController extends Controller
 {
     public function init()
     {
-        $this->viewPath = '@vendor/wm00689/template/admin/dashboard';
+        $this->viewPath = '@vendor/wm00689/template/admin/views/dashboard';
         parent::init();
     }
 
