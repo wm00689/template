@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
-namespace wm00689\admin\models;
+namespace wm00689\rbac\models;
 
 use backend\modules\admin\modules\rbac\AuthorRule;
 use Yii;

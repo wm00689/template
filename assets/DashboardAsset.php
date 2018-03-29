@@ -6,7 +6,7 @@
  * Time: PM10:38
  */
 
-namespace wm00689\template;
+namespace wm00689\assets;
 
 
 use yii\web\AssetBundle;
@@ -58,6 +58,6 @@ class DashboardAsset extends AssetBundle
     ];
 
     public $depends = [
-        'wm00689\template\Layout3Asset'
+        'wm00689\assets\Layout3Asset'
     ];
 }

@@ -17,7 +17,7 @@ $this->registerJs($js, 3);
         <div class="actions">
             <a href="javascript:;" class="btn yellow">
                 <i class="fa fa-pencil"></i> Edit </a>
-            <a href="<?= Url::to(['/admin/user/index/add']) ?>" class="btn green"  data-toggle="ajaxModal">
+            <a href="<?= Url::to(['rbac/index/add']) ?>" class="btn green"  data-toggle="ajaxModal">
                 <i class="fa fa-plus"></i> Add </a>
         </div>
     </div>

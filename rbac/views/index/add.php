@@ -45,16 +45,16 @@ EOT;
 $this->registerJs($js, 3);
 $this->registerJs($valid, 3);*/
 ?>
-<link href="/plugins/jstree/dist/themes/default/style.min.css" rel="stylesheet">
-<script src="/plugins/jstree/dist/jstree.min.js"></script>
-<script src="/plugins/bootstrap-toastr/toastr.js"></script>
-<script src="/js/app.min.js"></script>
+<link href="@static/plugins/jstree/dist/themes/default/style.min.css" rel="stylesheet">
+<script src="@static/plugins/jstree/dist/jstree.min.js"></script>
+<script src="@static/plugins/bootstrap-toastr/toastr.js"></script>
+<script src="@static/js/app.min.js"></script>
 <div class="modal-dialog">
     <div class="modal-content">
         <div class="portlet box blue-madison">
             <div class="portlet-title">
                 <div class="caption">
-                    <i class="fa fa-gift"></i><?= \backend\classes\common::getActiveItem()?>
+                    <i class="fa fa-gift"></i><?= \wm00689\rbac\common::getActiveItem()?>
                 </div>
                 <div class="actions">
                     <!--  <a href="javascript:;" class="btn yellow"><i class="fa fa-fullscreen"></i>全屏 </a>-->
@@ -63,7 +63,7 @@ $this->registerJs($valid, 3);*/
             </div>
             <div class="portlet-body form">
                 <!-- BEGIN FORM-->
-                <form action="<?= \yii\helpers\Url::to(['/admin/user/index/add']); ?>" class="form-horizontal validform"
+                <form action="<?= \yii\helpers\Url::to(['rbac/index/add']); ?>" class="form-horizontal validform"
                       method="post">
                     <input type="hidden" name="<?= Yii::$app->request->csrfParam ?>"
                            value="<?= Yii::$app->request->csrfToken ?>">

@@ -1,6 +1,6 @@
 {
-    "name": "wm00689/template",
-    "description": "yii2-admin-template",
+    "name": "wm00689/rbac",
+    "description": "yii2-user-rbac",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -14,8 +14,8 @@
     },
     "autoload": {
         "psr-4": {
-            "wm00689\\template\\": "assets/",
-            "wm00689\\admin\\": "admin/"
+            "wm00689\\assets\\": "assets/",
+            "wm00689\\rbac\\": "rbac/"
         }
     }
 }

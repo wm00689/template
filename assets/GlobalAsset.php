@@ -6,7 +6,7 @@
  * Time: PM9:56
  */
 
-namespace wm00689\template;
+namespace wm00689\assets;
 
 
 use yii\web\AssetBundle;

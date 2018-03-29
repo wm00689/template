@@ -6,7 +6,7 @@
  * Time: 14:08
  */
 
-namespace backend\modules\admin\modules\rbac\rules;
+namespace wm00689\rbac\rules;
 
 
 use backend\models\Student;

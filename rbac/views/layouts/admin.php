@@ -13,7 +13,7 @@ use yii\helpers\VarDumper;
 
 AdminAsset::register($this);
 $this->beginPage();
-$nav = \backend\classes\common::nav();
+$nav = \wm00689\rbac\common::nav();
 ?>
 <!DOCTYPE html>
 

@@ -6,7 +6,7 @@
  * Time: PM6:08
  */
 
-namespace wm00689\template;
+namespace wm00689\assets;
 
 
 use yii\web\AssetBundle;
@@ -59,6 +59,6 @@ class MemberAsset extends AssetBundle
     ];
 
     public $depends = [
-        'wm00689\template\Layout2Asset'
+        'wm00689\assets\Layout2Asset'
     ];
 }

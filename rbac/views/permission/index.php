@@ -1,9 +1,9 @@
 <?php
-$this->registerCssFile('@static/plugins/jstree/dist/themes/default/style.min.css', ['depends' => 'wm00689\template\music\AdminAsset']);
-$this->registerJsFile('@static/plugins/jstree/dist/jstree.min.js', ['depends' => 'wm00689\template\music\AdminAsset']);
-$this->registerJsFile('@static/plugins/bootstrap-toastr/toastr.js', ['depends' => 'wm00689\template\music\AdminAsset']);
-$this->registerCssFile('@static/plugins/bootstrap-toastr/toastr.css', ['depends' => 'wm00689\template\music\AdminAsset']);
-$this->registerJsFile('js/app.min.js', ['depends' => 'wm00689\template\music\AdminAsset']);
+$this->registerCssFile('@static/plugins/jstree/dist/themes/default/style.min.css', ['depends' => 'wm00689\assets\music\AdminAsset']);
+$this->registerJsFile('@static/plugins/jstree/dist/jstree.min.js', ['depends' => 'wm00689\assets\music\AdminAsset']);
+$this->registerJsFile('@static/plugins/bootstrap-toastr/toastr.js', ['depends' => 'wm00689\assets\music\AdminAsset']);
+$this->registerCssFile('@static/plugins/bootstrap-toastr/toastr.css', ['depends' => 'wm00689\assets\music\AdminAsset']);
+$this->registerJsFile('@static/js/app.min.js', ['depends' => 'wm00689\assets\music\AdminAsset']);
 $js =
     <<<EOF
     $('#tree').jstree({'plugins':["checkbox"],'core':{'data':[{$permissions}]}});

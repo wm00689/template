@@ -6,7 +6,7 @@
  * Time: 17:58
  */
 
-namespace wm00689\admin\controllers;
+namespace wm00689\rbac\controllers;
 
 
 use backend\modules\rbac\AuthorRule;

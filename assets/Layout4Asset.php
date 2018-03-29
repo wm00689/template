@@ -6,7 +6,7 @@
  * Time: PM10:19
  */
 
-namespace wm00689\template;
+namespace wm00689\assets;
 
 
 use yii\web\AssetBundle;
@@ -33,6 +33,6 @@ class Layout4Asset extends AssetBundle
     ];
 
     public $depends = [
-        'wm00689\template\GlobalAsset'
+        'wm00689\assets\GlobalAsset'
     ];
 }

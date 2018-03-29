@@ -6,7 +6,7 @@
  * Time: PM9:51
  */
 
-namespace wm00689\admin\controllers;
+namespace wm00689\rbac\controllers;
 
 use yii\web\Controller;
 
@@ -15,7 +15,7 @@ class RbacController extends Controller
     public function init()
     {
         parent::init();
-        $this->layout = '@vendor/wm00689/template/admin/views/layouts/admin';
-        $this->viewPath = '@vendor/wm00689/template/admin/views';
+        $this->layout = '@vendor/wm00689/assets/rbac/views/layouts/admin';
+        $this->viewPath = '@vendor/wm00689/assets/rbac/views';
     }
 }

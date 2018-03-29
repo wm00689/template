@@ -6,7 +6,7 @@
  * Time: 15:24
  */
 
-namespace wm00689\admin\models;
+namespace wm00689\rbac\models;
 
 
 use common\models\User;

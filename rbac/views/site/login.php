@@ -11,8 +11,8 @@ use yii\helpers\Url;
 use yii\helpers\VarDumper;
 
 LoginAsset::register($this);
-$this->registerCssFile('@static/plugins/validform/css/style.css',['depends'=>'wm00689\template\music\LoginAsset']);
-$this->registerJsFile('@static/plugins/validform/js/Validform_v5.3.2_min.js',['depends'=>'wm00689\template\music\LoginAsset']);
+$this->registerCssFile('@static/plugins/validform/css/style.css',['depends'=>'wm00689\assets\music\LoginAsset']);
+$this->registerJsFile('@static/plugins/validform/js/Validform_v5.3.2_min.js',['depends'=>'wm00689\assets\music\LoginAsset']);
 $this->beginPage()
 ?>
 <!DOCTYPE html>
@@ -125,7 +125,7 @@ $this->beginPage()
         callback:function(data){
             if(data.status=="y"){
                 setTimeout(function(){
-                    window.location.href = '<?= \yii\helpers\Url::to('/admin/dashboard/index');?>'
+                    window.location.href = '<?= \yii\helpers\Url::to('dashboard/index');?>'
                 },500);
             }
         }

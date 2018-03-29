@@ -6,7 +6,7 @@
  * Time: AM7:18
  */
 
-namespace wm00689\template\music;
+namespace wm00689\assets\music;
 
 use yii\web\AssetBundle;
 

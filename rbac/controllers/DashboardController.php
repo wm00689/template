@@ -6,7 +6,7 @@
  * Time: AM11:09
  */
 
-namespace wm00689\admin\controllers;
+namespace wm00689\rbac\controllers;
 
 
 
@@ -20,7 +20,7 @@ class DashboardController extends Controller
 {
     public function init()
     {
-        $this->viewPath = '@vendor/wm00689/template/admin/views/dashboard';
+        $this->viewPath = '@vendor/wm00689/assets/rbac/views/dashboard';
         parent::init();
     }
 
